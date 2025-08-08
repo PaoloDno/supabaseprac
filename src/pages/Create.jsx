@@ -29,6 +29,8 @@ const Create = () => {
     if (data) {
       console.log(data)
       setFormError(null)
+      setRating('')
+      setTitle('')
       navigate('/')
     }
   }
